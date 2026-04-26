@@ -1,0 +1,46 @@
+{
+  "name": "@vari/mcp",
+  "version": "1.0.0",
+  "description": "Stdio bridge that connects MCP clients (Claude Desktop, Cursor, Continue.dev) to the public Vari Hydration Tools MCP server at https://getvari.app/api/mcp/v1.",
+  "license": "MIT",
+  "author": "Vari (https://getvari.app)",
+  "homepage": "https://getvari.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/getvari/vari-mcp.git"
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "vari-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "hydration",
+    "health",
+    "wellness",
+    "calculators",
+    "claude",
+    "cursor"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
