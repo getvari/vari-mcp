@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // ═══════════════════════════════════════════════════════════════════════
-// @vari/mcp — stdio bridge for the Vari Hydration Tools MCP server
+// @getvari/mcp — stdio bridge for the Vari Hydration Tools MCP server
 //
 // MCP clients like Claude Desktop, Cursor, and Continue.dev launch tools
 // over stdio. Our actual server is HTTP — it lives in the same Vercel

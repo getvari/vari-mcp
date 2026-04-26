@@ -1,6 +1,6 @@
-# @vari/mcp
+# @getvari/mcp
 
-[![npm version](https://img.shields.io/npm/v/@vari/mcp.svg)](https://www.npmjs.com/package/@vari/mcp)
+[![npm version](https://img.shields.io/npm/v/@getvari/mcp.svg)](https://www.npmjs.com/package/@getvari/mcp)
 [![MCP](https://img.shields.io/badge/MCP-compatible-blue)](https://modelcontextprotocol.io)
 [![Smithery](https://img.shields.io/badge/Smithery-vari--hydration-purple)](https://smithery.ai/server/vari-hydration)
 [![Glama](https://img.shields.io/badge/Glama-listed-green)](https://glama.ai/mcp/servers)
@@ -43,7 +43,7 @@ Edit `claude_desktop_config.json` (Settings → Developer → Edit Config):
   "mcpServers": {
     "vari-hydration": {
       "command": "npx",
-      "args": ["-y", "@vari/mcp"]
+      "args": ["-y", "@getvari/mcp"]
     }
   }
 }
@@ -61,7 +61,7 @@ Cursor reads the same `mcp.json` shape. Drop this into `~/.cursor/mcp.json`:
   "mcpServers": {
     "vari-hydration": {
       "command": "npx",
-      "args": ["-y", "@vari/mcp"]
+      "args": ["-y", "@getvari/mcp"]
     }
   }
 }
@@ -80,7 +80,7 @@ Add the server in your `~/.continue/config.json` under
         "transport": {
           "type": "stdio",
           "command": "npx",
-          "args": ["-y", "@vari/mcp"]
+          "args": ["-y", "@getvari/mcp"]
         }
       }
     ]

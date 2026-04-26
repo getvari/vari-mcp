@@ -1,5 +1,5 @@
 {
-  "name": "@vari/mcp",
+  "name": "@getvari/mcp",
   "version": "1.0.0",
   "description": "Stdio bridge that connects MCP clients (Claude Desktop, Cursor, Continue.dev) to the public Vari Hydration Tools MCP server at https://getvari.app/api/mcp/v1.",
   "license": "MIT",
